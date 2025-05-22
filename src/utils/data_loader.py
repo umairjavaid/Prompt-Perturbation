@@ -90,21 +90,28 @@ class AppReviewDataset:
         Returns:
             pd.DataFrame: Sample review dataset
         """
-        # Example synthetic data structure
+        # Example text reviews to repeat
+        sample_texts = [
+            "Great app, really helpful for productivity!",
+            "The latest update broke the login feature.",
+            "Would be better if it had dark mode.",
+        ]
+        sample_ratings = [5, 2, 4]
+        
+        # Create lists of exactly the required length by repeating and slicing
+        texts = (sample_texts * (n_samples // len(sample_texts) + 1))[:n_samples]
+        ratings = (sample_ratings * (n_samples // len(sample_ratings) + 1))[:n_samples]
+        
+        # Example synthetic data structure with exact lengths
         synthetic_data = {
-            'review_id': range(1, n_samples + 1),
-            'text': [
-                "Great app, really helpful for productivity!",
-                "The latest update broke the login feature.",
-                "Would be better if it had dark mode.",
-                # Add more example reviews...
-            ] * (n_samples // 3 + 1),
-            'rating': [5, 2, 4] * (n_samples // 3 + 1),
+            'review_id': list(range(1, n_samples + 1)),
+            'text': texts,
+            'rating': ratings,
             'date': pd.date_range(end=pd.Timestamp.now(), periods=n_samples)
         }
         
         df = pd.DataFrame(synthetic_data)
-        return df.head(n_samples)
+        return df
     
     def get_reviews(self, filename: Optional[str] = None, n_samples: int = 50) -> pd.DataFrame:
         """

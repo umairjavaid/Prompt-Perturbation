@@ -1,0 +1,1762 @@
+[
+  {
+    "review_id": 46,
+    "text": "Great app, really helpful for productivity!",
+    "tasks": {
+      "sentiment": [
+        {
+          "style": "formal",
+          "prompt": "Analyze the sentiment of this app store review: 'Great app, really helpful for productivity!'. Classify it as positive, neutral, or negative.",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.9996572732925415
+                  },
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.0003427131741773337
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Hey, what's the vibe of this review? 'Great app, really helpful for productivity!' Is it positive, neutral, or negative?",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.9996572732925415
+                  },
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.0003427131741773337
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Please evaluate the sentiment expressed in the following app store review: 'Great app, really helpful for productivity!'. Consider the user's tone, word choice, and overall message to classify it as positive, neutral, or negative. Provide your classification.",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.9996572732925415
+                  },
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.0003427131741773337
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'Great app, really helpful for productivity!'\nTASK: Sentiment Analysis\nOUTPUT FORMAT: One of [positive, neutral, negative]\nANALYSIS:",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.9996572732925415
+                  },
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.0003427131741773337
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'Great app, really helpful for productivity!'\nSentiment (positive/neutral/negative):",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.9996572732925415
+                  },
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.0003427131741773337
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ],
+      "feature_request": [
+        {
+          "style": "formal",
+          "prompt": "Does this app store review contain a feature request? Review: 'Great app, really helpful for productivity!'. Please identify any requested features.",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9576404094696045,
+                  0.042359620332717896
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Can you spot any feature requests in this review? 'Great app, really helpful for productivity!' What does the user want to be added?",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9576404094696045,
+                  0.042359620332717896
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Analyze this app store review for feature requests: 'Great app, really helpful for productivity!'. Identify any specific features, functionality, or improvements the user is asking for.",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9576404094696045,
+                  0.042359620332717896
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'Great app, really helpful for productivity!'\nTASK: Feature Request Detection\nOUTPUT FORMAT: [Yes/No] + [Requested Feature]\nANALYSIS:",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9576404094696045,
+                  0.042359620332717896
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'Great app, really helpful for productivity!'\nContains feature request? (yes/no):",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9576404094696045,
+                  0.042359620332717896
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "bug_report": [
+        {
+          "style": "formal",
+          "prompt": "Identify if this app store review reports any bugs or technical issues: 'Great app, really helpful for productivity!'",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.7734264135360718,
+                  0.226573646068573
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Hey, does this review mention any bugs or problems? 'Great app, really helpful for productivity!'",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.7734264135360718,
+                  0.226573646068573
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Please analyze this app store review for bug reports or technical issues: 'Great app, really helpful for productivity!'. Identify specific problems mentioned by the user.",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.7734264135360718,
+                  0.226573646068573
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'Great app, really helpful for productivity!'\nTASK: Bug Report Detection\nOUTPUT FORMAT: [Yes/No] + [Description of Issue]\nANALYSIS:",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.7734264135360718,
+                  0.226573646068573
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'Great app, really helpful for productivity!'\nContains bug report? (yes/no):",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.7734264135360718,
+                  0.226573646068573
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "review_id": 12,
+    "text": "Would be better if it had dark mode.",
+    "tasks": {
+      "sentiment": [
+        {
+          "style": "formal",
+          "prompt": "Analyze the sentiment of this app store review: 'Would be better if it had dark mode.'. Classify it as positive, neutral, or negative.",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9985619187355042
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.0014380721841007471
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Hey, what's the vibe of this review? 'Would be better if it had dark mode.' Is it positive, neutral, or negative?",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9985619187355042
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.0014380721841007471
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Please evaluate the sentiment expressed in the following app store review: 'Would be better if it had dark mode.'. Consider the user's tone, word choice, and overall message to classify it as positive, neutral, or negative. Provide your classification.",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9985619187355042
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.0014380721841007471
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'Would be better if it had dark mode.'\nTASK: Sentiment Analysis\nOUTPUT FORMAT: One of [positive, neutral, negative]\nANALYSIS:",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9985619187355042
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.0014380721841007471
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'Would be better if it had dark mode.'\nSentiment (positive/neutral/negative):",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9985619187355042
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.0014380721841007471
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ],
+      "feature_request": [
+        {
+          "style": "formal",
+          "prompt": "Does this app store review contain a feature request? Review: 'Would be better if it had dark mode.'. Please identify any requested features.",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9901960492134094,
+                  0.00980391539633274
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Can you spot any feature requests in this review? 'Would be better if it had dark mode.' What does the user want to be added?",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9901960492134094,
+                  0.00980391539633274
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Analyze this app store review for feature requests: 'Would be better if it had dark mode.'. Identify any specific features, functionality, or improvements the user is asking for.",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9901960492134094,
+                  0.00980391539633274
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'Would be better if it had dark mode.'\nTASK: Feature Request Detection\nOUTPUT FORMAT: [Yes/No] + [Requested Feature]\nANALYSIS:",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9901960492134094,
+                  0.00980391539633274
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'Would be better if it had dark mode.'\nContains feature request? (yes/no):",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9901960492134094,
+                  0.00980391539633274
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "bug_report": [
+        {
+          "style": "formal",
+          "prompt": "Identify if this app store review reports any bugs or technical issues: 'Would be better if it had dark mode.'",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9788028597831726,
+                  0.02119714394211769
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Hey, does this review mention any bugs or problems? 'Would be better if it had dark mode.'",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9788028597831726,
+                  0.02119714394211769
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Please analyze this app store review for bug reports or technical issues: 'Would be better if it had dark mode.'. Identify specific problems mentioned by the user.",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9788028597831726,
+                  0.02119714394211769
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'Would be better if it had dark mode.'\nTASK: Bug Report Detection\nOUTPUT FORMAT: [Yes/No] + [Description of Issue]\nANALYSIS:",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9788028597831726,
+                  0.02119714394211769
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'Would be better if it had dark mode.'\nContains bug report? (yes/no):",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9788028597831726,
+                  0.02119714394211769
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "review_id": 11,
+    "text": "The latest update broke the login feature.",
+    "tasks": {
+      "sentiment": [
+        {
+          "style": "formal",
+          "prompt": "Analyze the sentiment of this app store review: 'The latest update broke the login feature.'. Classify it as positive, neutral, or negative.",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9768218398094177
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.02317812480032444
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Hey, what's the vibe of this review? 'The latest update broke the login feature.' Is it positive, neutral, or negative?",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9768218398094177
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.02317812480032444
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Please evaluate the sentiment expressed in the following app store review: 'The latest update broke the login feature.'. Consider the user's tone, word choice, and overall message to classify it as positive, neutral, or negative. Provide your classification.",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9768218398094177
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.02317812480032444
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'The latest update broke the login feature.'\nTASK: Sentiment Analysis\nOUTPUT FORMAT: One of [positive, neutral, negative]\nANALYSIS:",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9768218398094177
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.02317812480032444
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'The latest update broke the login feature.'\nSentiment (positive/neutral/negative):",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9768218398094177
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.02317812480032444
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ],
+      "feature_request": [
+        {
+          "style": "formal",
+          "prompt": "Does this app store review contain a feature request? Review: 'The latest update broke the login feature.'. Please identify any requested features.",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.8400903344154358,
+                  0.1599096804857254
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Can you spot any feature requests in this review? 'The latest update broke the login feature.' What does the user want to be added?",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.8400903344154358,
+                  0.1599096804857254
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Analyze this app store review for feature requests: 'The latest update broke the login feature.'. Identify any specific features, functionality, or improvements the user is asking for.",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.8400903344154358,
+                  0.1599096804857254
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'The latest update broke the login feature.'\nTASK: Feature Request Detection\nOUTPUT FORMAT: [Yes/No] + [Requested Feature]\nANALYSIS:",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.8400903344154358,
+                  0.1599096804857254
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'The latest update broke the login feature.'\nContains feature request? (yes/no):",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.8400903344154358,
+                  0.1599096804857254
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "bug_report": [
+        {
+          "style": "formal",
+          "prompt": "Identify if this app store review reports any bugs or technical issues: 'The latest update broke the login feature.'",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9818044304847717,
+                  0.018195591866970062
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Hey, does this review mention any bugs or problems? 'The latest update broke the login feature.'",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9818044304847717,
+                  0.018195591866970062
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Please analyze this app store review for bug reports or technical issues: 'The latest update broke the login feature.'. Identify specific problems mentioned by the user.",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9818044304847717,
+                  0.018195591866970062
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'The latest update broke the login feature.'\nTASK: Bug Report Detection\nOUTPUT FORMAT: [Yes/No] + [Description of Issue]\nANALYSIS:",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9818044304847717,
+                  0.018195591866970062
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'The latest update broke the login feature.'\nContains bug report? (yes/no):",
+          "result": {
+            "review": "The latest update broke the login feature.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9818044304847717,
+                  0.018195591866970062
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "review_id": 39,
+    "text": "Would be better if it had dark mode.",
+    "tasks": {
+      "sentiment": [
+        {
+          "style": "formal",
+          "prompt": "Analyze the sentiment of this app store review: 'Would be better if it had dark mode.'. Classify it as positive, neutral, or negative.",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9985619187355042
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.0014380721841007471
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Hey, what's the vibe of this review? 'Would be better if it had dark mode.' Is it positive, neutral, or negative?",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9985619187355042
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.0014380721841007471
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Please evaluate the sentiment expressed in the following app store review: 'Would be better if it had dark mode.'. Consider the user's tone, word choice, and overall message to classify it as positive, neutral, or negative. Provide your classification.",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9985619187355042
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.0014380721841007471
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'Would be better if it had dark mode.'\nTASK: Sentiment Analysis\nOUTPUT FORMAT: One of [positive, neutral, negative]\nANALYSIS:",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9985619187355042
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.0014380721841007471
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'Would be better if it had dark mode.'\nSentiment (positive/neutral/negative):",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.9985619187355042
+                  },
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.0014380721841007471
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ],
+      "feature_request": [
+        {
+          "style": "formal",
+          "prompt": "Does this app store review contain a feature request? Review: 'Would be better if it had dark mode.'. Please identify any requested features.",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9901960492134094,
+                  0.00980391539633274
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Can you spot any feature requests in this review? 'Would be better if it had dark mode.' What does the user want to be added?",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9901960492134094,
+                  0.00980391539633274
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Analyze this app store review for feature requests: 'Would be better if it had dark mode.'. Identify any specific features, functionality, or improvements the user is asking for.",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9901960492134094,
+                  0.00980391539633274
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'Would be better if it had dark mode.'\nTASK: Feature Request Detection\nOUTPUT FORMAT: [Yes/No] + [Requested Feature]\nANALYSIS:",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9901960492134094,
+                  0.00980391539633274
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'Would be better if it had dark mode.'\nContains feature request? (yes/no):",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9901960492134094,
+                  0.00980391539633274
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "bug_report": [
+        {
+          "style": "formal",
+          "prompt": "Identify if this app store review reports any bugs or technical issues: 'Would be better if it had dark mode.'",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9788028597831726,
+                  0.02119714394211769
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Hey, does this review mention any bugs or problems? 'Would be better if it had dark mode.'",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9788028597831726,
+                  0.02119714394211769
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Please analyze this app store review for bug reports or technical issues: 'Would be better if it had dark mode.'. Identify specific problems mentioned by the user.",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9788028597831726,
+                  0.02119714394211769
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'Would be better if it had dark mode.'\nTASK: Bug Report Detection\nOUTPUT FORMAT: [Yes/No] + [Description of Issue]\nANALYSIS:",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9788028597831726,
+                  0.02119714394211769
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'Would be better if it had dark mode.'\nContains bug report? (yes/no):",
+          "result": {
+            "review": "Would be better if it had dark mode.",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.9788028597831726,
+                  0.02119714394211769
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "review_id": 19,
+    "text": "Great app, really helpful for productivity!",
+    "tasks": {
+      "sentiment": [
+        {
+          "style": "formal",
+          "prompt": "Analyze the sentiment of this app store review: 'Great app, really helpful for productivity!'. Classify it as positive, neutral, or negative.",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.9996572732925415
+                  },
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.0003427131741773337
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Hey, what's the vibe of this review? 'Great app, really helpful for productivity!' Is it positive, neutral, or negative?",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.9996572732925415
+                  },
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.0003427131741773337
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Please evaluate the sentiment expressed in the following app store review: 'Great app, really helpful for productivity!'. Consider the user's tone, word choice, and overall message to classify it as positive, neutral, or negative. Provide your classification.",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.9996572732925415
+                  },
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.0003427131741773337
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'Great app, really helpful for productivity!'\nTASK: Sentiment Analysis\nOUTPUT FORMAT: One of [positive, neutral, negative]\nANALYSIS:",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.9996572732925415
+                  },
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.0003427131741773337
+                  }
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'Great app, really helpful for productivity!'\nSentiment (positive/neutral/negative):",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "sentiment",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "distilbert-sst2",
+              "predictions": [
+                [
+                  {
+                    "label": "POSITIVE",
+                    "score": 0.9996572732925415
+                  },
+                  {
+                    "label": "NEGATIVE",
+                    "score": 0.0003427131741773337
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ],
+      "feature_request": [
+        {
+          "style": "formal",
+          "prompt": "Does this app store review contain a feature request? Review: 'Great app, really helpful for productivity!'. Please identify any requested features.",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9576404094696045,
+                  0.042359620332717896
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Can you spot any feature requests in this review? 'Great app, really helpful for productivity!' What does the user want to be added?",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9576404094696045,
+                  0.042359620332717896
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Analyze this app store review for feature requests: 'Great app, really helpful for productivity!'. Identify any specific features, functionality, or improvements the user is asking for.",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9576404094696045,
+                  0.042359620332717896
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'Great app, really helpful for productivity!'\nTASK: Feature Request Detection\nOUTPUT FORMAT: [Yes/No] + [Requested Feature]\nANALYSIS:",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9576404094696045,
+                  0.042359620332717896
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'Great app, really helpful for productivity!'\nContains feature request? (yes/no):",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "feature_request",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains feature_request",
+                  "no feature_request"
+                ],
+                "scores": [
+                  0.9576404094696045,
+                  0.042359620332717896
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "bug_report": [
+        {
+          "style": "formal",
+          "prompt": "Identify if this app store review reports any bugs or technical issues: 'Great app, really helpful for productivity!'",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.7734264135360718,
+                  0.226573646068573
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "casual",
+          "prompt": "Hey, does this review mention any bugs or problems? 'Great app, really helpful for productivity!'",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.7734264135360718,
+                  0.226573646068573
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "detailed",
+          "prompt": "Please analyze this app store review for bug reports or technical issues: 'Great app, really helpful for productivity!'. Identify specific problems mentioned by the user.",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.7734264135360718,
+                  0.226573646068573
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "structured",
+          "prompt": "INPUT: 'Great app, really helpful for productivity!'\nTASK: Bug Report Detection\nOUTPUT FORMAT: [Yes/No] + [Description of Issue]\nANALYSIS:",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.7734264135360718,
+                  0.226573646068573
+                ]
+              }
+            }
+          }
+        },
+        {
+          "style": "minimal",
+          "prompt": "Review: 'Great app, really helpful for productivity!'\nContains bug report? (yes/no):",
+          "result": {
+            "review": "Great app, really helpful for productivity!",
+            "task": "bug_report",
+            "openai_error": "OpenAI API key not found in environment variables",
+            "huggingface": {
+              "model": "bart-large-mnli",
+              "predictions": {
+                "labels": [
+                  "contains bug_report",
+                  "no bug_report"
+                ],
+                "scores": [
+                  0.7734264135360718,
+                  0.226573646068573
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]
